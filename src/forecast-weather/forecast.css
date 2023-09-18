@@ -1,0 +1,43 @@
+.forecast-wrapper{
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px #00000033;
+    /* background-color: rgb(255, 237, 217); */
+    background-color: bisque;
+    opacity: 70%;
+}
+
+.upper{
+    display: flex;
+    height: auto;
+    width: auto;
+    padding-left: 5px;
+}
+
+.name{
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5px;
+}
+
+.hourly{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    height: 30px;
+    margin-bottom: 3px;
+}
+
+
+.forecast-temperature{
+    font-weight: 600;
+}
+
